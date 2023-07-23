@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* styles.css */
+
+/* Reset default styles */
+@import 'tailwindcss/base';
+
+/* Apply pre-designed component styles */
+@import 'tailwindcss/components';
+
+/* Add utility classes */
+@import 'tailwindcss/utilities';
+
+/*styles*/

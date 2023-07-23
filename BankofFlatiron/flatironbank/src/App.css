@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Transactions-root {
+  margin-top: 50px;
+  width: 800px;
+}
+
+.Transactions-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Transactions-search {
+  margin-bottom: 20px;
+}
+
+.Transactions-table {
+  width: 100%;
+}
+
+.Transactions-table-cell {
+  font-weight: bold;
+}
+
+.Transactions-delete-button {
+  margin-left: 10px;
+}
+
