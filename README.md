@@ -16,21 +16,19 @@ This repo contains Bank of Flatiron's
 - React JS
 - JSON Tool
 ## Project Structure 
-contains the following folders:
-- **BankofFlatiron**
- .vscode
- bof
- css
- dist
- flatironbank
- src
- tailwind
- **files:**
- README.md
- LICENSE
+contains the following:
+- **folders**
+- vscode
+- bof
+- dist
+- src
+- tailwind
+- **files**
+- LICENSE
+- README.md
 ## Installation Requirements
-A phone, laptop,tablet or ipad. 
-An acess to internet connection
+A phone, laptop, tablet, or iPad. 
+An access to an internet connection
 ## Installation Process
 
 
