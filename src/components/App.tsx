@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import TransactionTable from './components/TransactionTable';
-import TransactionForm from './components/TransactionForm';
-import SearchBar from './components/SearchBar';
+import TransactionTable from './TransactionTable';
+import TransactionForm from './TransactionForm';
+import SearchBar from './SearchBar';
 
 function App() {
   const [transactions, setTransactions] = useState([]);
@@ -14,7 +14,7 @@ function App() {
 
   const fetchTransactions = async () => {
     try {
-      const response = await axios.get('http://localhost:8001/transactions');
+      const response = await axios.get('http://localhost:3001/transactions');
       setTransactions(response.data.transactions);
     } catch (error) {
       console.error('Error fetching transactions:', error);
