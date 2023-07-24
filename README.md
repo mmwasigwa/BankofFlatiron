@@ -17,13 +17,13 @@ This repo contains Bank of Flatiron's
 - JSON Tool
 ## Project Structure 
 contains the following:
-- **folders**
+**folders**
 - vscode
 - bof
 - dist
 - src
 - tailwind
-- **files**
+  **files**
 - LICENSE
 - README.md
 ## Installation Requirements
