@@ -53,5 +53,4 @@ npx webpack --mode production --watch
 **Refer to MIT License file**
 
 ## Author's Info
-of
-dist*Gathirimu Mwasigwa*
+*Gathirimu Mwasigwa*
