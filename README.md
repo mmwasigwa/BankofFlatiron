@@ -53,6 +53,4 @@ npx webpack --mode production --watch
 **Refer to MIT License file**
 
 ## Author's Info
-Gathirimu Mwasigwa
-Slack Profile:
-LinkedIn:
+*Gathirimu Mwasigwa*
