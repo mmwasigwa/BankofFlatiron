@@ -9,7 +9,8 @@
 - [Author's Info](https://github.com/Mwasigwa2/BankofFlatiron#authors-info)
   
 ## Desciription
-This repo contains Bank of Flatiron's
+This repo contains Bank of Flatiron's react app containing transaction form and a transaction table as well as a functional search bar
+built using React. 
 ## Technologies Used
 - HTML
 - Tailwind CSS
@@ -17,26 +18,22 @@ This repo contains Bank of Flatiron's
 - JSON Tool
 ## Project Structure 
 contains the following folders:
-- **BankofFlatiron**
  .vscode
- bof
- css
- dist
- flatironbank
- src
- tailwind
- **files:**
- README.md
- LICENSE
+ - bof
+ - dist
+ - src
+ - tailwind
+ - **files:**
+ - README.md
+ - LICENSE
 ## Installation Requirements
-A phone, laptop,tablet or ipad. 
-An acess to internet connection
+A phone, laptop, tablet or iPad. 
+An access to an internet connection
 ## Installation Process
 
-
-**Install Tailwind CSS and its Dependencies:**
+**run the server**
 ```
-npm install tailwindcss postcss autoprefixer --save-dev
+npm start
 ```
 
 **Install Required Webpack Plugins:**
@@ -44,7 +41,7 @@ npm install tailwindcss postcss autoprefixer --save-dev
 npm install mini-css-extract-plugin css-loader postcss-loader --save-dev
 ```
 
-**Auto update functionality**
+**Auto update functionality for tailwind**
 ```
 npx webpack --mode production --watch
 ```
