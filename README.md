@@ -17,7 +17,6 @@ This repo contains Bank of Flatiron's
 - JSON Tool
 ## Project Structure 
 contains the following folders:
-- **BankofFlatiron**
  .vscode
  - bof
  - dist
