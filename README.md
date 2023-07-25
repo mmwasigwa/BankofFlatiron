@@ -8,8 +8,8 @@
 - [License](https://github.com/Mwasigwa2/BankofFlatiron#license)
 - [Author's Info](https://github.com/Mwasigwa2/BankofFlatiron#authors-info)
   
-## Desciription
-This repo contains Bank of Flatiron's react app containing transaction form and a transaction table as well as a functional search bar
+## Description
+This repo contains Bank of Flatiron's react app containing a transaction form and a transaction table as well as a functional search bar
 built using React. 
 ## Technologies Used
 - HTML
@@ -27,8 +27,8 @@ contains the following folders:
  - README.md
  - LICENSE
 ## Installation Requirements
-A phone, laptop, tablet or iPad. 
-An access to an internet connection
+A phone, laptop, tablet, or iPad. 
+Access to an Internet connection
 ## Installation Process
 
 **run the server**
@@ -50,8 +50,6 @@ npx webpack --mode production --watch
 **Refer to MIT License file**
 
 ## Author's Info
-<<<<<<< HEAD
+
 *Gathirimu Mwasigwa*
-=======
-*Gathirimu Mwasigwa*
->>>>>>> 238eee074a8cedfe829f215466ca83c3ce5f59b1
+
