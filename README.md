@@ -9,7 +9,8 @@
 - [Author's Info](https://github.com/Mwasigwa2/BankofFlatiron#authors-info)
   
 ## Desciription
-This repo contains Bank of Flatiron's
+This repo contains Bank of Flatiron's react app containing transaction form and a transaction table as well as a functional search bar
+built using React. 
 ## Technologies Used
 - HTML
 - Tailwind CSS
