@@ -31,19 +31,21 @@ A phone, laptop, tablet, or iPad.
 Access to an Internet connection
 ## Installation Process
 
-**run the server**
+**run the server with the following command in your terminal**
 ```
-npm start
+$ npm start
 ```
-
-**Install Required Webpack Plugins:**
+**run the backend server**
 ```
-npm install mini-css-extract-plugin css-loader postcss-loader --save-dev
+$ npm json-server --watch db.json
 ```
-
+**if you are having issues, try**
+```
+$ npx json-server --watch db.json
+```
 **Auto update functionality for tailwind**
 ```
-npx webpack --mode production --watch
+$ npx webpack --mode production --watch
 ```
 
 ## LICENSE
