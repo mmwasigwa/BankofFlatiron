@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBar({ setSearchTerm }) {
   return (
     <div className="bg-blue-600 p-6 text-white font-inter">
-      <h1 className="text-3xl font-bold mb-4">BANK OF FLATIRON</h1>
+      <h1 className="text-3xl font-bold mb-4">Bank of Flatiron</h1>
       <p className="text-lg mb-4">Search Transactions</p>
       <input
         type="text"

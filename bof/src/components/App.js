@@ -13,7 +13,7 @@ function App() {
     }, []);
 // fetch data from the url
     const fetchTransactions = async () => {
-        const response = await fetch('http://localhost:8001/transactions');
+        const response = await fetch('http://localhost:3001/transactions');
         const data = await response.json();
         setTransactions(data);
     };

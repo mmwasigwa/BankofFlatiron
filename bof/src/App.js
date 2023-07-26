@@ -14,7 +14,7 @@ function App() {
 
   const fetchTransactions = async () => {
     try {
-      const response = await axios.get('http://localhost:8001/transactions');
+      const response = await axios.get('http://localhost:3001/transactions');
       setTransactions(response.data.transactions);
     } catch (error) {
       console.error('Error fetching transactions:', error);
@@ -44,3 +44,4 @@ function App() {
 }
 
 export default App;
+
