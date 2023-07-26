@@ -47,4 +47,3 @@ $ npx json-server --watch db.json
 ## Author's Info
 
 *Gathirimu Mwasigwa*
-

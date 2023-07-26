@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import TransactionList from './TransactionTable';
-import AddTransactionForm from './TransactionForm';
+import TransactionList from './TransactionList';
+import AddTransactionForm from './AddTransactionForm';
 import SearchBar from './SearchBar';
+import Transaction from './Transaction';
 
-function App() {
-
+function App() {      
     const [transactions, setTransactions] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -13,7 +13,7 @@ function App() {
     }, []);
 // fetch data from the url
     const fetchTransactions = async () => {
-        const response = await fetch('http://localhost:3001/transactions');
+        const response = await fetch('http://localhost:8001/transactions');
         const data = await response.json();
         setTransactions(data);
     };

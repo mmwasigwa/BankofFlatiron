@@ -1,0 +1,91 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f1f1f1;
+}
+
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 10px; 
+}
+
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px; 
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.searchbar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #45a049;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+
+.addtransactionform {
+  display: flex;
+  flex-direction: column;
+}
+
+.addtransactionform label {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.addtransactionform input[type="text"],
+.addtransactionform input[type="number"] {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.addtransactionform button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addtransactionform button:hover {
+  background-color: #45a049;
+}
+
+
+.transactionlist {
+  margin-top: 20px;
+}
+
+.transactionlist li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
