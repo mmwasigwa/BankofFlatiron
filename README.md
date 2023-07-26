@@ -13,17 +13,14 @@ This repo contains Bank of Flatiron's react app containing a transaction form an
 built using React. 
 ## Technologies Used
 - HTML
-- Tailwind CSS
+- CSS
 - React JS
 - JSON Tool
 ## Project Structure 
-contains the following folders:
+- contains the following:
  .vscode
- - bof
  - dist
  - src
- - tailwind
- - **files:**
  - README.md
  - LICENSE
 ## Installation Requirements
@@ -42,10 +39,6 @@ $ npm json-server --watch db.json
 **if you are having issues, try**
 ```
 $ npx json-server --watch db.json
-```
-**Auto update functionality for tailwind**
-```
-$ npx webpack --mode production --watch
 ```
 
 ## LICENSE
